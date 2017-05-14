@@ -1,25 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!--
-        ===
-        This comment should NOT be removed.
-
-        Charisma v2.0.0
-
-        Copyright 2012-2014 Muhammad Usman
-        Licensed under the Apache License v2.0
-        http://www.apache.org/licenses/LICENSE-2.0
-
-        http://usman.it
-        http://twitter.com/halalit_usman
-        ===
-    -->
+   
     <meta charset="utf-8">
     <title>Admin OMecMart</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Charisma, a fully featured, responsive, HTML5, Bootstrap admin template.">
-    
+    <meta name="author" content="Muhammad Usman">
+
     <!-- The styles -->
     <link id="bs-css" href="<?php echo base_url(); ?>/assets/css/bootstrap-cerulean.min.css" rel="stylesheet">
 
@@ -56,14 +44,14 @@
     <div class="navbar navbar-default" role="navigation">
 
         <div class="navbar-inner">
-            <button type="button" class="navbar-toggle pull-le ft animated flip">
+            <button type="button" class="navbar-toggle pull-left animated flip">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="index.html"> <img alt="Charisma Logo" src="img/logo20.png" class="hidden-xs"/>
-                <span>OmecMart</span></a>
+                <span>Charisma</span></a>
 
             <!-- user dropdown starts -->
             <div class="btn-group pull-right">
@@ -100,10 +88,7 @@
             </div>
             <!-- theme selector ends -->
 
-            <ul class="collapse navbar-collapse nav navbar-nav top-menu">
-                
-                
-                <li>
+            
                     <form class="navbar-search pull-left">
                         <input placeholder="Search" class="search-query form-control col-md-10" name="query"
                                type="text">
@@ -125,13 +110,11 @@
 
                     </div>
                     <ul class="nav nav-pills nav-stacked main-menu">
-                       
-                       
-                        <li class="nav-header hidden-md">Sample Section</li>
                         
+                        <li class="nav-header hidden-md">Sample Section</li>
                         <li><a class="ajax-link" href="admin"><i
                                     class="glyphicon glyphicon-align-justify"></i><span> Admin </span></a></li>
-                        <li><a class="ajax-link" href="user"><i
+                        <li><a class="ajax-link" href="table.html"><i
                                     class="glyphicon glyphicon-align-justify"></i><span> User </span></a></li>
                         <li><a class="ajax-link" href="table.html"><i
                                     class="glyphicon glyphicon-align-justify"></i><span> Bengkel </span></a></li>
@@ -141,8 +124,6 @@
                         
                         <li><a class="ajax-link" href="calendar.html"><i class="glyphicon glyphicon-calendar"></i><span> Calendar</span></a>
                         </li>
-                    </ul>
-                    
                 </div>
             </div>
         </div>
@@ -160,55 +141,82 @@
 
         <div id="content" class="col-lg-10 col-sm-10">
             <!-- content starts -->
-            <div>
+                <div>
+       
+    </div>
+
+    <div class="row">
+    <div class="box col-md-12">
+    <div class="box-inner">
+    <div class="box-header well" data-original-title="">
+        <h2><i class=""></i> Tabel Bengkel</h2>
+
+        
+    </div>
+    <div class="box-content">
     
-</div>
-<div class=" row">
-    <div class="col-md-3 col-sm-3 col-xs-6">
-        <a data-toggle="tooltip" title="6 new members." class="well top-block" href="#">
-            <i class="glyphicon glyphicon-user blue"></i>
-
-            <div>Admin</div>
-            <div>507</div>
-            <span class="notification">6</span>
-        </a>
+    <table class="table table-striped table-bordered bootstrap-datatable datatable responsive">
+    <thead>
+    <tr>
+        <th>Kode</th>
+        <th>Nama Bengkel</th>
+        <th>Email Bengkel</th>
+        <th>Password</th>
+        <th>No tlp</th>
+        <th>Nama Pemilik</th>
+        <th>Alamat</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+   
+    <tr>
+        <td>1</td>
+        <td class="center">Bengkel-bengkelan</td>
+        <td class="center">bengkel_bengkelan@gmail.com</td>
+        <td class="center">hghfhsdfgjufjdkjegfhkja</td>
+        <td class="center">
+            <span class="label-default label">09876543</span>
+        </td>
+        <td class="center">Sesepuh OMecMart</td>
+        <td class="center">Jember</td>
+        <td class="center">
+            <a class="btn btn-success" href="#">
+                <i class="glyphicon glyphicon-zoom-in icon-white"></i>
+                View
+            </a>
+            <a class="btn btn-info" href="#">
+                <i class="glyphicon glyphicon-edit icon-white"></i>
+                Edit
+            </a>
+            <a class="btn btn-danger" href="#">
+                <i class="glyphicon glyphicon-trash icon-white"></i>
+                Delete
+            </a>
+        </td>
+    </tr>
+   
+    
+   
+   
+    </tbody>
+    </table>
     </div>
-
-    <div class="col-md-3 col-sm-3 col-xs-6">
-        <a data-toggle="tooltip" title="4 new pro members." class="well top-block" href="#">
-            <i class="glyphicon glyphicon-star green"></i>
-
-            <div>User</div>
-            <div>228</div>
-            <span class="notification green">4</span>
-        </a>
     </div>
-
-    <div class="col-md-3 col-sm-3 col-xs-6">
-        <a data-toggle="tooltip" title="$34 new sales." class="well top-block" href="#">
-            <i class="glyphicon glyphicon-shopping-cart yellow"></i>
-
-            <div>Bengkel</div>
-            <div>13320</div>
-            <span class="notification yellow">34</span>
-        </a>
     </div>
+    <!--/span-->
 
-    <div class="col-md-3 col-sm-3 col-xs-6">
-        <a data-toggle="tooltip" title="12 new messages." class="well top-block" href="#">
-            <i class="glyphicon glyphicon-envelope red"></i>
+    </div><!--/row-->
 
-            <div>Barang</div>
-            <div>25</div>
-            <span class="notification red">12</span>
-        </a>
-    </div>
-</div>
+   
+    
+    
+    
+    <!-- content ends -->
+    </div><!--/#content.col-md-0-->
+</div><!--/fluid-row-->
 
-        </div>
-
-    </div>
-    <!-- Ad ends -->
+  
 
     <hr>
 
@@ -232,11 +240,7 @@
         </div>
     </div>
 
-    <footer class="row">
-             <p class="col-md-9 col-sm-9 col-xs-12 copyright"> <a href="http://usman.it" target="_blank"></a> </p>
-        <p class="col-md-3 col-sm-3 col-xs-12 powered-by">Powered by: <a
-                href="">Fantastic Five</a></p>
-    </footer>
+    
 
 </div><!--/.fluid-container-->
 
@@ -245,12 +249,12 @@
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
 <!-- library for cookie management -->
-<script src="<?php echo base_url(); ?>/assets/js/jquery.cookie.js"></script>
+<script src="js/jquery.cookie.js"></script>
 <!-- calender plugin -->
 <script src='bower_components/moment/min/moment.min.js'></script>
 <script src='bower_components/fullcalendar/dist/fullcalendar.min.js'></script>
 <!-- data table plugin -->
-<script src='<?php echo base_url(); ?>/assets/js/jquery.dataTables.min.js'></script>
+<script src='js/jquery.dataTables.min.js'></script>
 
 <!-- select or dropdown enhancer -->
 <script src="bower_components/chosen/chosen.jquery.min.js"></script>
@@ -263,17 +267,17 @@
 <!-- tour plugin -->
 <script src="bower_components/bootstrap-tour/build/js/bootstrap-tour.min.js"></script>
 <!-- star rating plugin -->
-<script src="<?php echo base_url(); ?>/assets/js/jquery.raty.min.js"></script>
+<script src="js/jquery.raty.min.js"></script>
 <!-- for iOS style toggle switch -->
-<script src="<?php echo base_url(); ?>/assets/js/jquery.iphone.toggle.js"></script>
+<script src="js/jquery.iphone.toggle.js"></script>
 <!-- autogrowing textarea plugin -->
-<script src="<?php echo base_url(); ?>/assets/js/jquery.autogrow-textarea.js"></script>
+<script src="js/jquery.autogrow-textarea.js"></script>
 <!-- multiple file upload plugin -->
-<script src="<?php echo base_url(); ?>/assets/js/jquery.uploadify-3.1.min.js"></script>
+<script src="js/jquery.uploadify-3.1.min.js"></script>
 <!-- history.js for cross-browser state change on ajax -->
-<script src="<?php echo base_url(); ?>/assets/js/jquery.history.js"></script>
+<script src="js/jquery.history.js"></script>
 <!-- application script for Charisma demo -->
-<script src="<?php echo base_url(); ?>/assets/js/charisma.js"></script>
+<script src="js/charisma.js"></script>
 
 
 </body>
