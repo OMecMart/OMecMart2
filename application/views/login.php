@@ -12,12 +12,12 @@
     <link id="bs-css" href="<?php echo base_url(); ?>/assets/css/bootstrap-cerulean.min.css" rel="stylesheet">
 
     <link href="<?php echo base_url(); ?>/assets/css/charisma-app.css" rel="stylesheet">
-    <link href='bower_components/fullcalendar/dist/fullcalendar.css' rel='stylesheet'>
-    <link href='bower_components/fullcalendar/dist/fullcalendar.print.css' rel='stylesheet' media='print'>
-    <link href='bower_components/chosen/chosen.min.css' rel='stylesheet'>
-    <link href='bower_components/colorbox/example3/colorbox.css' rel='stylesheet'>
-    <link href='bower_components/responsive-tables/responsive-tables.css' rel='stylesheet'>
-    <link href='bower_components/bootstrap-tour/build/css/bootstrap-tour.min.css' rel='stylesheet'>
+    <link href='<?php echo base_url(); ?>/assets/bower_components/fullcalendar/dist/fullcalendar.css' rel='stylesheet'>
+    <link href='<?php echo base_url(); ?>/assets/bower_components/fullcalendar/dist/fullcalendar.print.css' rel='stylesheet' media='print'>
+    <link href='<?php echo base_url(); ?>/assets/bower_components/chosen/chosen.min.css' rel='stylesheet'>
+    <link href='<?php echo base_url(); ?>/assets/bower_components/colorbox/example3/colorbox.css' rel='stylesheet'>
+    <link href='<?php echo base_url(); ?>/assets/bower_components/responsive-tables/responsive-tables.css' rel='stylesheet'>
+    <link href='<?php echo base_url(); ?>/assets/bower_components/bootstrap-tour/build/css/bootstrap-tour.min.css' rel='stylesheet'>
     <link href='<?php echo base_url(); ?>/assets/css/jquery.noty.css' rel='stylesheet'>
     <link href='<?php echo base_url(); ?>/assets/css/noty_theme_default.css' rel='stylesheet'>
     <link href='<?php echo base_url(); ?>/assets/css/elfinder.min.css' rel='stylesheet'>
@@ -27,7 +27,7 @@
     <link href='<?php echo base_url(); ?>/assets/css/animate.min.css' rel='stylesheet'>
 
     <!-- jQuery -->
-    <script src="bower_components/jquery/jquery.min.js"></script>
+    <script src="<?php echo base_url(); ?>/assets/bower_components/jquery/jquery.min.js"></script>
 
     <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -45,7 +45,7 @@
         
     <div class="row">
         <div class="col-md-12 center login-header">
-            <h2>Welcome to OmecMart</h2>
+            <h2>Welcome to OMecMart</h2>
         </div>
         <!--/span-->
     </div><!--/row-->
@@ -58,13 +58,14 @@
             <form class="form-horizontal" action="home.php" method="post">
                 <fieldset>
                     <div class="input-group input-group-lg">
-                        <span class="input-group-addon"><i class="glyphicon glyphicon-user red"></i></span>
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-user blue" ></i></span>
                         <input type="text" class="form-control" placeholder="Username">
+                        
                     </div>
                     <div class="clearfix"></div><br>
 
                     <div class="input-group input-group-lg">
-                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock red"></i></span>
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock blue"></i></span>
                         <input type="password" class="form-control" placeholder="Password">
                     </div>
                     <div class="clearfix"></div>
