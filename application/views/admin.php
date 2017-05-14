@@ -80,29 +80,7 @@
             </div>
             <!-- user dropdown ends -->
 
-            <!-- theme selector starts -->
-            <div class="btn-group pull-right theme-container animated tada">
-                <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                    <i class="glyphicon glyphicon-tint"></i><span
-                        class="hidden-sm hidden-xs"> Change Theme / Skin</span>
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" id="themes">
-                    <li><a data-value="classic" href="#"><i class="whitespace"></i> Classic</a></li>
-                    <li><a data-value="cerulean" href="#"><i class="whitespace"></i> Cerulean</a></li>
-                    <li><a data-value="cyborg" href="#"><i class="whitespace"></i> Cyborg</a></li>
-                    <li><a data-value="simplex" href="#"><i class="whitespace"></i> Simplex</a></li>
-                    <li><a data-value="darkly" href="#"><i class="whitespace"></i> Darkly</a></li>
-                    <li><a data-value="lumen" href="#"><i class="whitespace"></i> Lumen</a></li>
-                    <li><a data-value="slate" href="#"><i class="whitespace"></i> Slate</a></li>
-                    <li><a data-value="spacelab" href="#"><i class="whitespace"></i> Spacelab</a></li>
-                    <li><a data-value="united" href="#"><i class="whitespace"></i> United</a></li>
-                </ul>
-            </div>
-            <!-- theme selector ends -->
-
-            
-                    <form class="navbar-search pull-left">
+                        <form class="navbar-search pull-left">
                         <input placeholder="Search" class="search-query form-control col-md-10" name="query"
                                type="text">
                     </form>
@@ -127,11 +105,11 @@
                         <li class="nav-header hidden-md">Sample Section</li>
                         <li><a class="ajax-link" href="admin"><i
                                     class="glyphicon glyphicon-align-justify"></i><span> Admin </span></a></li>
-                        <li><a class="ajax-link" href="table.html"><i
+                        <li><a class="ajax-link" href="user"><i
                                     class="glyphicon glyphicon-align-justify"></i><span> User </span></a></li>
-                        <li><a class="ajax-link" href="table.html"><i
+                        <li><a class="ajax-link" href="bengkel"><i
                                     class="glyphicon glyphicon-align-justify"></i><span> Bengkel </span></a></li>
-                        <li><a class="ajax-link" href="table.html"><i
+                        <li><a class="ajax-link" href="barang"><i
                                     class="glyphicon glyphicon-align-justify"></i><span> Barang </span></a></li>
                         
                         
