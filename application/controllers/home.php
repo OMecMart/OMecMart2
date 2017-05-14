@@ -5,6 +5,8 @@ public function index() {
         "container" => "home"
     ); 
     $this->load->view("home","data" );
-}
+    
+    }
+    
 }
 ?> 
