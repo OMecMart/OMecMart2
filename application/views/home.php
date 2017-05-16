@@ -11,12 +11,12 @@
     <link id="bs-css" href="<?php echo base_url(); ?>/assets/css/bootstrap-cerulean.min.css" rel="stylesheet">
 
     <link href="<?php echo base_url(); ?>/assets/css/charisma-app.css" rel="stylesheet">
-    <link href='bower_components/fullcalendar/dist/fullcalendar.css' rel='stylesheet'>
-    <link href='bower_components/fullcalendar/dist/fullcalendar.print.css' rel='stylesheet' media='print'>
-    <link href='bower_components/chosen/chosen.min.css' rel='stylesheet'>
-    <link href='bower_components/colorbox/example3/colorbox.css' rel='stylesheet'>
-    <link href='bower_components/responsive-tables/responsive-tables.css' rel='stylesheet'>
-    <link href='bower_components/bootstrap-tour/build/css/bootstrap-tour.min.css' rel='stylesheet'>
+    <link href='<?php echo base_url(); ?>/assets/bower_components/fullcalendar/dist/fullcalendar.css' rel='stylesheet'>
+    <link href='<?php echo base_url(); ?>/assets/bower_components/fullcalendar/dist/fullcalendar.print.css' rel='stylesheet' media='print'>
+    <link href='<?php echo base_url(); ?>/assets/bower_components/chosen/chosen.min.css' rel='stylesheet'>
+    <link href='<?php echo base_url(); ?>/assets/bower_components/colorbox/example3/colorbox.css' rel='stylesheet'>
+    <link href='<?php echo base_url(); ?>/assets/bower_components/responsive-tables/responsive-tables.css' rel='stylesheet'>
+    <link href='<?php echo base_url(); ?>/assets/bower_components/bootstrap-tour/build/css/bootstrap-tour.min.css' rel='stylesheet'>
     <link href='<?php echo base_url(); ?>/assets/css/jquery.noty.css' rel='stylesheet'>
     <link href='<?php echo base_url(); ?>/assets/css/noty_theme_default.css' rel='stylesheet'>
     <link href='<?php echo base_url(); ?>/assets/css/elfinder.min.css' rel='stylesheet'>
@@ -49,20 +49,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html"> <img alt="Charisma Logo" src="img/logo20.png" class="hidden-xs"/>
-                <span>OmecMart</span></a>
+            <a class="navbar-brand" href="home"> 
+                <span>OMecMart</span></a>
 
-            <!-- user dropdown starts -->
+           <!-- user dropdown starts -->
             <div class="btn-group pull-right">
-                <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                    <i class="glyphicon glyphicon-user"></i><span class="hidden-sm hidden-xs"> admin</span>
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu">
-                    <li><a href="#">Profile</a></li>
-                    <li class="divider"></li>
-                    <li><a href="login.html">Logout</a></li>
-                </ul>
+                <button class="btn btn-default">
+                    <i class="glyphicon glyphicon-user"></i> Logout</button>
+                
             </div>
             <!-- user dropdown ends -->
 
@@ -93,10 +87,10 @@
 
                     </div>
                     <ul class="nav nav-pills nav-stacked main-menu">
-                       
-                       
-                        <li class="nav-header hidden-md">Sample Section</li>
-                        
+                        <li class="nav-header">Main</li>
+                        <li><a class="ajax-link" href="home"><i class="glyphicon glyphicon-home"></i><span> Dashboard</span></a>
+                        </li>
+                         <li class="nav-header hidden-md">Sample Section</li>
                         <li><a class="ajax-link" href="admin"><i
                                     class="glyphicon glyphicon-align-justify"></i><span> Admin </span></a></li>
                         <li><a class="ajax-link" href="user"><i
@@ -105,10 +99,6 @@
                                     class="glyphicon glyphicon-align-justify"></i><span> Bengkel </span></a></li>
                         <li><a class="ajax-link" href="barang"><i
                                     class="glyphicon glyphicon-align-justify"></i><span> Barang </span></a></li>
-                        
-                        
-                        <li><a class="ajax-link" href="calendar.html"><i class="glyphicon glyphicon-calendar"></i><span> Calendar</span></a>
-                        </li>
                     </ul>
                     
                 </div>
@@ -134,32 +124,28 @@
 <div class=" row">
     <div class="col-md-3 col-sm-3 col-xs-6">
         <a data-toggle="tooltip" title="6 new members." class="well top-block" href="#">
-            <i class="glyphicon glyphicon-user blue"></i>
+            <i class="glyphicon glyphicon-user"></i>
 
             <div>Admin</div>
-            <div>507</div>
-            <span class="notification">6</span>
+        
         </a>
     </div>
 
     <div class="col-md-3 col-sm-3 col-xs-6">
         <a data-toggle="tooltip" title="4 new pro members." class="well top-block" href="#">
-            <i class="glyphicon glyphicon-star green"></i>
+            <i class="glyphicon glyphicon-user black"></i>
 
             <div>User</div>
-            <div>228</div>
-            <span class="notification green">4</span>
+      
         </a>
     </div>
 
     <div class="col-md-3 col-sm-3 col-xs-6">
         <a data-toggle="tooltip" title="$34 new sales." class="well top-block" href="#">
-            <i class="glyphicon glyphicon-shopping-cart yellow"></i>
+            <i class="glyphicon glyphicon-home yellow"></i>
 
             <div>Bengkel</div>
-            <div>13320</div>
-            <span class="notification yellow">34</span>
-        </a>
+               </a>
     </div>
 
     <div class="col-md-3 col-sm-3 col-xs-6">
@@ -167,8 +153,7 @@
             <i class="glyphicon glyphicon-envelope red"></i>
 
             <div>Barang</div>
-            <div>25</div>
-            <span class="notification red">12</span>
+         
         </a>
     </div>
 </div>

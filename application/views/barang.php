@@ -1,20 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!--
-        ===
-        This comment should NOT be removed.
-
-        Charisma v2.0.0
-
-        Copyright 2012-2014 Muhammad Usman
-        Licensed under the Apache License v2.0
-        http://www.apache.org/licenses/LICENSE-2.0
-
-        http://usman.it
-        http://twitter.com/halalit_usman
-        ===
-    -->
+   
     <meta charset="utf-8">
     <title>Admin OMecMart</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -63,10 +50,10 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-           <a class="navbar-brand" href="home"> 
+            <a class="navbar-brand" href="home"> 
                 <span>OMecMart</span></a>
 
-        <!-- user dropdown starts -->
+         <!-- user dropdown starts -->
             <div class="btn-group pull-right">
                 <button class="btn btn-default">
                     <i class="glyphicon glyphicon-user"></i> Logout</button>
@@ -96,10 +83,10 @@
                     <div class="nav-sm nav nav-stacked">
 
                     </div>
-                     <ul class="nav nav-pills nav-stacked main-menu">
-                      
-                        
-                        <li class="nav-header hidden-md">Sample Section</li>
+                    
+                         <ul class="nav nav-pills nav-stacked main-menu">
+                       
+                         <li class="nav-header hidden-md">Sample Section</li>
                         <li><a class="ajax-link" href="admin"><i
                                     class="glyphicon glyphicon-align-justify"></i><span> Admin </span></a></li>
                         <li><a class="ajax-link" href="user"><i
@@ -138,7 +125,7 @@
     <div class="box col-md-12">
     <div class="box-inner">
     <div class="box-header well" data-original-title="">
-        <h2><i class=""></i> Tabel User</h2>
+        <h2><i class=""></i> Tabel Barang</h2>
 
         
     </div>
@@ -147,10 +134,12 @@
     <table class="table table-striped table-bordered bootstrap-datatable datatable responsive">
     <thead>
     <tr>
-        <th>Kode User</th>
-        <th>Nama User</th>
-        <th>Alamat User</th>
-        <th>No tlp</th>
+        <th>Kode</th>
+        <th>Nama Barang</th>
+        <th>Jenis</th>
+        <th>Type</th>
+        <th>Jumlah</th>
+        <th>Harga</th>
         <th>Actions</th>
     </tr>
     </thead>
@@ -158,11 +147,14 @@
    
     <tr>
         <td>1</td>
-        <td class="center">Zakiyatul Masruroh</td>
-        <td class="center">Jember</td>
+        <td class="center">Aspira</td>
+        <td class="center">ACCU</td>
+        <td class="center">hghfhsdfgjufjdkjegfhkja</td>
         <td class="center">
-            <span class="label-default label">09876543</span>
+            <span class="label-default label">90</span>
         </td>
+        <td class="center">Rp.1000</td>
+        
         <td class="center">
             <a class="btn btn-success" href="#">
                 <i class="glyphicon glyphicon-zoom-in icon-white"></i>

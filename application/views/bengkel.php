@@ -50,23 +50,16 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html"> <img alt="Charisma Logo" src="img/logo20.png" class="hidden-xs"/>
-                <span>Charisma</span></a>
+            <a class="navbar-brand" href="home"> 
+                <span>OMecMart</span></a>
 
-            <!-- user dropdown starts -->
+         <!-- user dropdown starts -->
             <div class="btn-group pull-right">
-                <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                    <i class="glyphicon glyphicon-user"></i><span class="hidden-sm hidden-xs"> admin</span>
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu">
-                    <li><a href="#">Profile</a></li>
-                    <li class="divider"></li>
-                    <li><a href="login.html">Logout</a></li>
-                </ul>
+                <button class="btn btn-default">
+                    <i class="glyphicon glyphicon-user"></i> Logout</button>
+                
             </div>
             <!-- user dropdown ends -->
-
             
 
             
@@ -90,9 +83,10 @@
                     <div class="nav-sm nav nav-stacked">
 
                     </div>
-                    <ul class="nav nav-pills nav-stacked main-menu">
-                        
-                        <li class="nav-header hidden-md">Sample Section</li>
+                    
+                         <ul class="nav nav-pills nav-stacked main-menu">
+                       
+                         <li class="nav-header hidden-md">Sample Section</li>
                         <li><a class="ajax-link" href="admin"><i
                                     class="glyphicon glyphicon-align-justify"></i><span> Admin </span></a></li>
                         <li><a class="ajax-link" href="user"><i
@@ -101,6 +95,7 @@
                                     class="glyphicon glyphicon-align-justify"></i><span> Bengkel </span></a></li>
                         <li><a class="ajax-link" href="barang"><i
                                     class="glyphicon glyphicon-align-justify"></i><span> Barang </span></a></li>
+                        
                         
                         
                         <li><a class="ajax-link" href="calendar.html"><i class="glyphicon glyphicon-calendar"></i><span> Calendar</span></a>
