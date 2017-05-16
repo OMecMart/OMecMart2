@@ -109,10 +109,6 @@
                         <li><a class="ajax-link" href="barang"><i
                                     class="glyphicon glyphicon-align-justify"></i><span> Barang </span></a></li>
                         
-                        
-                        
-                        <li><a class="ajax-link" href="calendar.html"><i class="glyphicon glyphicon-calendar"></i><span> Calendar</span></a>
-                        </li>
                 </div>
             </div>
         </div>
